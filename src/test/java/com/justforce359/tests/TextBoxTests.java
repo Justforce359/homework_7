@@ -19,7 +19,7 @@ public class TextBoxTests extends TestBase {
                 .setClick()
                 .checkResult("Mikhail Ustinov",
                         "somename@mail.com",
-                        "Some Current Address 666",
+                        "Some Current: Address.666",
                         "Some Permanent Address 999");
 
     }
