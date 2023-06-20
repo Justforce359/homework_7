@@ -16,10 +16,10 @@ public class TextBoxTests extends TestBase {
                 .setEmail("somename@mail.com")
                 .setCurrentAddress("Some Current: Address.666")
                 .setPermanentAddress("Some Permanent Address 999")
-                .setClick()
-                .checkResult("Mikhail Ustinov",
+                .setClick();
+                textBoxPage.checkResult("Mikhail Ustinov",
                         "somename@mail.com",
-                        "Some Current Address 666",
+                        "Some Current: Address.666",
                         "Some Permanent Address 999");
 
     }

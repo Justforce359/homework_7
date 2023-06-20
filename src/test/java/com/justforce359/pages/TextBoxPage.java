@@ -13,7 +13,7 @@ public class TextBoxPage {
             userNameInput = $("#userName"),
             userEmailInput = $("#userEmail"),
             currentAddressInput = $("#currentAddress"),
-            permanentAddressInput = $("#currentAddress"),
+            permanentAddressInput = $("#permanentAddress"),
             submitClick = $("#submit"),
             nameResult = $("#output #name"),
             emailResult = $("#output #email"),
@@ -45,7 +45,7 @@ public class TextBoxPage {
         return this;
     }
 
-    public TextBoxPage setClick(String value) {
+    public TextBoxPage setClick() {
         submitClick.click();
         return this;
     }
